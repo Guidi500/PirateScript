@@ -1,0 +1,22 @@
+{
+    "owner": "YOUR_PFCAMPUS_USERNAME",
+    "project": "piratize",
+    "licence": "MIT LICENSE",
+    "action": {
+        "tests": [
+            {
+                "skip": false,
+                "setupFile": "_campus/setup.js",
+                "testFiles": ["_campus/test.js"],
+                "main": "piratescript.js"
+            }
+        ],
+        "deploy": {
+            "skip": true,
+            "notify_on_fail": true
+        },
+        "submission": { "skip": false }
+    },
+    "permission_request": [],
+    "thorVersion": "3.0.0"
+}
